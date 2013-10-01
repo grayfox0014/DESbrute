@@ -1,0 +1,26 @@
+
+There are 100 original passwords:
+
+	- 80 are lower-case only
+	- 20 have at least one upper-case character
+
+	- none have any digits in them
+
+	- 22 are 3 characters long
+	- 26 are 4 characters long
+	- 27 are 5 characters long
+	- 24 are 6 characters long
+	- 1 is 8 characters long
+
+
+--------------------------
+To compile and link a C program requiring the crypt() function, use:
+
+    gcc -std=c99 -Wall -Werror -pedantic -o myprog myprog.c -lcrypt
+
+--------------------------
+Examine the file mymd5.c to see how to (call a library to) calculate MD5.
+Compile this program with:
+
+    gcc -std=c99 -Wall -Werror -pedantic -o mymd5 mymd5.c -lssl
+
